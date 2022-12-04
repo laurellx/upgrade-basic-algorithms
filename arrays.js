@@ -11,21 +11,16 @@
 const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 console.log(avengers.length);
 
-// // 1.4 Añade 2 elementos al array: "Morty" y "Summer". 
+// 1.4 Añade 2 elementos al array: "Morty" y "Summer". 
 // Muestra en consola el último personaje del array
 // const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
-// let additionalCharacters = ["Morty", "Summer"];
-// let allCharacters = rickAndMortyCharacters.concat(additionalCharacters);
-// console.log(allCharacters);
-// console.log(allCharacters.length);
-// console.log(allCharacters[4]);
+// let allCharacters = rickAndMortyCharacters.concat("Morty", "Summer");
+// console.log(allCharacters[allCharacters.length - 1]);
 
 // // 1.5 Elimina el último elemento del array y muestra el primero y el último por consola.
 // const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 // rickAndMortyCharacters.pop();
-// console.log(rickAndMortyCharacters);
-// console.log(rickAndMortyCharacters[0]);
-// console.log(rickAndMortyCharacters[4]);
+// console.log(rickAndMortyCharacters[0], rickAndMortyCharacters[rickAndMortyCharacters.length - 1]);
 
 
 // // 1.6 Elimina el segundo elemento del array y muestra el array por consola.
